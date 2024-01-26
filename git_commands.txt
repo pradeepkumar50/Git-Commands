@@ -21,12 +21,13 @@ git status
 
 connect git to github
 ------------------------------------
+git branch -M main
 git remote add origin url   (https........Local) 
 git status
 git add filename
 git commit -m "header_styling_updated"
-git push -u origin master
-git pull origin master
+git push -u origin main
+git pull origin main
 
 some other extra commands
 ------------------------------------
