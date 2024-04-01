@@ -1,3 +1,8 @@
+GIT
+----------------
+GIT is a version control system. It can track changes to any file, including source code, word docs, audio and image files.
+
+
 git commands
 --------------------------------
 local
