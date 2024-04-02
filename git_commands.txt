@@ -11,7 +11,7 @@ local
 git config --global user.name "pradeep_kumar"
 git config --global user.email "pradeep******@gmail.com"
 git config --global core.editor "vs_code"
-git config --global init.default branch main
+git config --global init.defaultbranch main
 
 git config --list (To see list)
 git config user.name (To get user_name)
@@ -19,6 +19,9 @@ git config user.name (To get user_name)
 git init (To initilize git in editor)
 git status
 
+By default it is master branch. changing master to main
+
+git branch -m main
 git add  filename
 git commit -m "header_update"
 git status
@@ -26,7 +29,6 @@ git status
 
 connect git to github
 ------------------------------------
-git branch -M main
 git remote add origin url   (https........Local) 
 git status
 git add filename
