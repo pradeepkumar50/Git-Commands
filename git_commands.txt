@@ -22,8 +22,8 @@ git status
 By default it is master branch. changing master to main
 
 git branch -m main
-git add  filename
-git commit -m "header_update"
+git add  filename      (or)  git commit -a -m "header changed" 
+git commit -m "header_update"   
 git status
 
 
@@ -38,7 +38,7 @@ git pull origin main
 
 some other extra commands
 ------------------------------------
-git log
+git log (To see existing or previous commits)
 git diff
 git rm filename (removing file or deleting file)
 git mv existing_file new_file (moving file) 
